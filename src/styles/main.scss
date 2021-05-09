@@ -1,0 +1,67 @@
+@import "~bootstrap/scss/bootstrap";
+
+// Hero Section 
+
+// body{
+//   background-color: red;
+// }
+
+.profile-image{
+  // margin-top: 20vh;
+  width: 30vw;
+  height: auto;
+}
+.hero{
+  min-height: 100vh;
+  display: flex ;
+  align-items: center;
+}
+
+.hero-text-col{
+  align-self: center;
+}
+
+.links{
+  // margin-top: 30vh;
+  align-self: center;
+  max-width: 5vw;
+  margin: 0 2vw;
+    img{
+      margin: 1vh 0vw;
+      max-width: 5vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+// .hero{
+//   align-items: flex-start;
+// }
+.hero-mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+div.links.col-1{
+  align-self: flex-start;
+  // display: flex;
+}
+img.profile-image.rounded{
+  align-self: flex-end;
+//   display:none;
+}
+}
+
+
+// SKills Section
+
+.icon-image{
+  max-width: 5vw;
+}
+
+
+
+.skills-icon-description-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
