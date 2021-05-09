@@ -5,17 +5,17 @@ const Project2 = () => {
   return (
     <div>
       <h1>Cornhub </h1>
-      <a href="https://cornhubapp.herokuapp.com/" target="_blank" rel='noreferrer'> 
+      <a href="https://lotr-quiz.netlify.app/" target="_blank" rel='noreferrer'> 
         <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577132/portfolio/PinClipart.com_chain-links-clipart_989077_heae0p.png" alt="link to deployed project 4"/>
       </a>
-      <a href="https://github.com/jonty-ward/CornHub" target="_blank" rel='noreferrer'> 
+      <a href="https://github.com/jonty-ward/sei-project-2" target="_blank" rel='noreferrer'> 
         <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577534/portfolio/5847f98fcef1014c0b5e48c0_1_xgoimh.png" alt="link to deployed project 4 readme"/>
       </a>
       <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620578156/portfolio/Screenshot_2021-05-09_at_17.35.45_yosq9a.png"
+            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620582881/portfolio/LOTR%20Quiz/Screenshot_2021-05-09_at_18.53.03_sxc3iv.png"
             alt="First slide"
           />
           {/* <Carousel.Caption>
@@ -25,23 +25,11 @@ const Project2 = () => {
         </Carousel.Item>
 
 
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620578400/portfolio/cornhub/Screenshot_2021-05-09_at_17.37.04_ij2pnq.png"
-            alt="Second slide"
-          />
-          {/* <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption> */}
-        </Carousel.Item>
-
         
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620578397/portfolio/cornhub/Screenshot_2021-05-09_at_17.37.24_dgn1lf.png"
+            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620582888/portfolio/LOTR%20Quiz/Screenshot_2021-05-09_at_18.53.12_cac7vi.png"
             alt="Third slide"
           />
           {/* <Carousel.Caption>
@@ -53,7 +41,7 @@ const Project2 = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620578394/portfolio/cornhub/Screenshot_2021-05-09_at_17.38.02_qug3ry.png"
+            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620582900/portfolio/LOTR%20Quiz/Screenshot_2021-05-09_at_18.53.42_fcaebf.png"
             alt="Third slide"
           />
           {/* <Carousel.Caption>
@@ -65,7 +53,7 @@ const Project2 = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620578390/portfolio/cornhub/Screenshot_2021-05-09_at_17.38.23_faeh55.png"
+            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620582898/portfolio/LOTR%20Quiz/Screenshot_2021-05-09_at_18.53.32_tdtscp.png"
             alt="Third slide"
           />
           {/* <Carousel.Caption>
@@ -74,22 +62,12 @@ const Project2 = () => {
           </Carousel.Caption> */}
         </Carousel.Item>
 
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620578692/portfolio/cornhub/Screenshot_2021-05-09_at_17.44.38_dfhv9q.png"
-            alt="Third slide"
-          />
-          {/* <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption> */}
-        </Carousel.Item>
+   
 
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620578384/portfolio/cornhub/Screenshot_2021-05-09_at_17.38.57_aq0zcv.png"
+            src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620582897/portfolio/LOTR%20Quiz/Screenshot_2021-05-09_at_18.53.51_ylkewe.png"
             alt="Third slide"
           />
           {/* <Carousel.Caption>
@@ -100,7 +78,9 @@ const Project2 = () => {
 
 
       </Carousel>
-      <p>Over the course of a week we built a full-stack app with a React front end and a Python / Django / PostgreSQL back end. Our app was built to provide detailed gardening information that was searchable and accessible. We were able to integrate many additional features, such as CRUD functionality, authentication, reminders, PayPal integration and weather information. We worked on many of the more challenging aspects of the project as a group which gave me a great opportunity to develop my skills in problem solving as part of a team. In addition to the collaborative work, i focussed on integrating the OpenWeatherMap API and PayPal into the app.</p>
+      <p className="project-desciption"> In a 48 hour Hackathon themed project, we built a quiz app in React using The One API to build a Lord of the Rings themed quiz. We built the majority of the project by pair coding. I really enjoyed coding in a pair, particularly having someone to talk through some of the problems we encountered. With the work being done as a pair, the majority of the work was done collaboratively on the first quiz, and then I focused on the second quiz independently. </p>
+      
+      
     </div>
   )
 }

@@ -80,13 +80,23 @@ img.profile-image.rounded{
 //projects
 
 .link-icon-projects{
-  width: 2vw;
+  width: 3vw;
   margin: .8vw;
 }
 
 .carousel-item{
   // max-width: 80vw;
   max-height: 80vh;
+}
+
+.carousel.slide{
+margin: 0vw 5vw;
+}
+
+.project-desciption{
+  margin: 0vw 5vw;
+  
+
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {

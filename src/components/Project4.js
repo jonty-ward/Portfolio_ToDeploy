@@ -100,7 +100,7 @@ const Project4 = () => {
 
 
       </Carousel>
-      <p>Over the course of a week we built a full-stack app with a React front end and a Python / Django / PostgreSQL back end. Our app was built to provide detailed gardening information that was searchable and accessible. We were able to integrate many additional features, such as CRUD functionality, authentication, reminders, PayPal integration and weather information. We worked on many of the more challenging aspects of the project as a group which gave me a great opportunity to develop my skills in problem solving as part of a team. In addition to the collaborative work, i focussed on integrating the OpenWeatherMap API and PayPal into the app.</p>
+      <p className="project-desciption">Over the course of a week we built a full-stack app with a React front end and a Python / Django / PostgreSQL back end. Our app was built to provide detailed gardening information that was searchable and accessible. We were able to integrate many additional features, such as CRUD functionality, authentication, reminders, PayPal integration and weather information. We worked on many of the more challenging aspects of the project as a group which gave me a great opportunity to develop my skills in problem solving as part of a team. In addition to the collaborative work, i focussed on integrating the OpenWeatherMap API and PayPal into the app.</p>
     </div>
   )
 }

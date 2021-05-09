@@ -111,7 +111,7 @@ const Project3 = () => {
         </Carousel.Item>
 
       </Carousel>
-      <p>Over the course of a week, we built a full stack MERN app with CRUD functionality. We based our project on the outdoors, and National Parks around the world. We divided the work up so that we all worked with the full stack. I focused on user interaction, displaying data from our database and integrating external APIs into the project. This was a great opportunity to practice Full Stack building, and working with group Git. </p>
+      <p className="project-desciption">Over the course of a week, we built a full stack MERN app with CRUD functionality. We based our project on the outdoors, and National Parks around the world. We divided the work up so that we all worked with the full stack. I focused on user interaction, displaying data from our database and integrating external APIs into the project. This was a great opportunity to practice Full Stack building, and working with group Git. </p>
     </div>
   )
 }
