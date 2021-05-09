@@ -3,7 +3,7 @@ import React from 'react'
 const Currently = () => {
   return (
     <div>
-      <h1>this could have a section about what i am currently doing</h1>
+      <h1>this could have a section about what i am currently doing- optional extra</h1>
       <ul>
         <li>What i am reading</li>
         <li>What i am watching</li>

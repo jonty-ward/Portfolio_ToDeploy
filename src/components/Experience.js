@@ -1,11 +1,109 @@
 import React from 'react'
+import { Accordion, Card } from 'react-bootstrap'
 
 const Experience = () => {
   return (
-    <div>
-      <h1>This should be a collapsable container that has the name of the company, and a dropdown that opens up for the different jobs. MAybe could have education as well?</h1>
-      <p>This is not an essential part, and should be very brief should not be like having a copy of my CV</p>
-    </div>
+    <>
+      <h1>Experience</h1>
+      <div className="experience-cards">
+        <Accordion defaultActiveKey="0">
+          <Card>
+            <Accordion.Toggle as={Card.Header} eventKey="1">
+            FPRC Environment and Design LTD 
+              <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="1">
+              <Card.Body>
+                <p>Seasonal Ecologist </p>
+                <p>April 2021 - Present</p>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+
+
+        <Accordion defaultActiveKey="0">
+          <Card>
+            <Accordion.Toggle as={Card.Header} eventKey="1">
+            General Assembly 
+              <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="1">
+              <Card.Body>
+                <p>Software Engineering Immersive Course </p>
+                <p>Jan 2021 - April 2021</p>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+      </div>
+
+      <div className="experience-cards">
+        <Accordion defaultActiveKey="0">
+          <Card>
+            <Accordion.Toggle as={Card.Header} eventKey="1">
+            Engoo
+              <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="1">
+              <Card.Body>
+                <p> English as a Second Language Tutor </p>
+                <p>Oct 2020- Present</p>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+
+
+        <Accordion defaultActiveKey="0">
+          <Card>
+            <Accordion.Toggle as={Card.Header} eventKey="1">
+            Hillcrest School and Sixth Form
+              <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="1">
+              <Card.Body>
+                <p>Secondary School Science Teacher (Trainee) </p>
+                <p>Jan 2020 - March 2020</p>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+      </div>
+
+      <div className="experience-cards">
+        <Accordion defaultActiveKey="0">
+          <Card>
+            <Accordion.Toggle as={Card.Header} eventKey="1">
+            King Edward VI Camp Hill School for Boys
+              <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="1">
+              <Card.Body>
+                <p>Secondary School Science Teacher  </p>
+                <p>Sept 2019- Jan 2020 & March 2020 - July 2020</p>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+
+
+        <Accordion defaultActiveKey="0">
+          <Card>
+            <Accordion.Toggle as={Card.Header} eventKey="1">
+            AECOM
+              <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="1">
+              <Card.Body>
+                <p>Seasonal ecologist  </p>
+                <p>May 2018 - November 2018</p>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+      </div>
+    </>
   )
 }
 

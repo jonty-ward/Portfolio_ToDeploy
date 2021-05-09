@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Skills = () => {
   return (
     <div>
-      <h1>Technologies I&apos;ve Used: </h1>
+      <h1>Skills </h1>
 
       <Container>
         <Row>
@@ -126,8 +126,6 @@ const Skills = () => {
         </Row>
       </Container>
 
-      <p>This is a small, visual section for coding langs</p>
-      <p>Needs to be clear and concise- easy to interpret by layman</p>
     </div>
   )
 }

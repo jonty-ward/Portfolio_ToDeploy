@@ -65,3 +65,36 @@ img.profile-image.rounded{
   flex-direction: column;
   align-items: center;
 }
+
+//Experience 
+
+.experience-cards{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5vh;
+    .card-header{
+      min-width: 45vw;
+    }
+}
+
+//projects
+
+.link-icon-projects{
+  width: 2vw;
+  margin: .8vw;
+}
+
+.carousel-item{
+  // max-width: 80vw;
+  max-height: 80vh;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
