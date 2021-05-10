@@ -8,8 +8,8 @@ const Experience = () => {
       <div className="experience-cards">
         <Accordion defaultActiveKey="0">
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
-            FPRC Environment and Design LTD 
+            <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
+            FPRC Environment & Design
               <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
@@ -24,7 +24,7 @@ const Experience = () => {
 
         <Accordion defaultActiveKey="0">
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
+            <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
             General Assembly 
               <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
             </Accordion.Toggle>
@@ -41,7 +41,7 @@ const Experience = () => {
       <div className="experience-cards">
         <Accordion defaultActiveKey="0">
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
+            <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
             Engoo
               <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
             </Accordion.Toggle>
@@ -57,8 +57,8 @@ const Experience = () => {
 
         <Accordion defaultActiveKey="0">
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
-            Hillcrest School and Sixth Form
+            <Accordion.Toggle className="experience-header"as={Card.Header} eventKey="1">
+            Hillcrest School & Sixth Form
               <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
@@ -74,7 +74,7 @@ const Experience = () => {
       <div className="experience-cards">
         <Accordion defaultActiveKey="0">
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
+            <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
             King Edward VI Camp Hill School for Boys
               <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
             </Accordion.Toggle>
@@ -90,7 +90,7 @@ const Experience = () => {
 
         <Accordion defaultActiveKey="0">
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
+            <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
             AECOM
               <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
             </Accordion.Toggle>

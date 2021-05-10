@@ -7,7 +7,7 @@ const Skills = () => {
       <h1>Skills </h1>
 
       <Container>
-        <Row>
+        <Row className="skills-row">
           <Col className="skills-icon-description-container">
             <img className="icon-image" alt="react hooks" src="https://raw.githubusercontent.com/alDuncanson/react-hooks-snippets/master/icon.png"/>
             <p>React Hooks</p>
@@ -42,9 +42,9 @@ const Skills = () => {
             <img className="icon-image" alt="Sass" src="https://symbols-electrical.getvecta.com/stencil_25/76_sass.ba26158d9f.png"/>
             <p>Sass</p>
           </Col>
-        </Row>
+          {/* </Row>
 
-        <Row>
+        <Row className="skills-row"> */}
     
     
           <Col className="skills-icon-description-container">
@@ -84,9 +84,9 @@ const Skills = () => {
           </Col>
 
 
-        </Row>
+          {/* </Row>
 
-        <Row>
+        <Row className="skills-row"> */}
          
           <Col className="skills-icon-description-container">
             <img className="icon-image" alt="Table Plus" src="https://www.patricktapiojohnson.com/static/media/tableplus.5f0a1cd5.png"/>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
 const NavBar = () => {
   return (
-    <div>
+    <div >
       <Navbar  bg="light" variant="light" className="navbar ">
         <Navbar.Brand href="#home">Jonty Ward</Navbar.Brand>
         <Nav className="mr-auto">

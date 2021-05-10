@@ -3,7 +3,7 @@
 // Hero Section 
 
 // body{
-//   background-color: red;
+//   background-color: rgba(0, 26, 255, 0.274);
 // }
 
 .profile-image{
@@ -64,7 +64,20 @@ img.profile-image.rounded{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  
 }
+
+// @media screen and (max-width: 850px) {
+//   .skills-row{
+//     flex-direction: column;
+//   }
+//   .skills-icon-description-container{
+//     display: flex;
+//   }
+
+// }
+
 
 //Experience 
 
@@ -76,6 +89,25 @@ img.profile-image.rounded{
       min-width: 45vw;
     }
 }
+
+.experience-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 850px) {
+  .experience-cards{
+    flex-direction: column;
+    margin:   0vw 5vw
+    
+  }
+
+
+}
+
+
 
 //projects
 
@@ -108,3 +140,37 @@ margin: 0vw 5vw;
   border-radius: 50%;
   border: 1px solid black;
 }
+
+//footer
+
+.footer{
+  background-color: teal;
+  padding: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+  a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .footer{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+  }
+
+
+
+
