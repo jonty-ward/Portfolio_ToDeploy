@@ -1,9 +1,9 @@
 import React from 'react'
-import { Accordion, Card } from 'react-bootstrap'
+import { Accordion, Card, Container } from 'react-bootstrap'
 
 const Experience = () => {
   return (
-    <>
+    <Container>
       <h1>Experience</h1>
       <div className="experience-cards">
         <Accordion defaultActiveKey="0">
@@ -103,7 +103,7 @@ const Experience = () => {
           </Card>
         </Accordion>
       </div>
-    </>
+    </Container>
   )
 }
 

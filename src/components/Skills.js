@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Skills = () => {
   return (
-    <div>
-      <h1>Skills </h1>
+    <Container>
+      <h1>Technologies I have used </h1>
 
       <Container>
         <Row className="skills-row">
@@ -126,7 +126,7 @@ const Skills = () => {
         </Row>
       </Container>
 
-    </div>
+    </Container>
   )
 }
 

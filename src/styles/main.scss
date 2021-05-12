@@ -1,21 +1,43 @@
 @import "~bootstrap/scss/bootstrap";
 
+
+body{
+background-color: whitesmoke;}
+
+
+
 // Hero Section 
 
-// body{
-//   background-color: rgba(0, 26, 255, 0.274);
-// }
+
+.hero-carousel{
+  max-width: 20vw;
+}
 
 .profile-image{
   // margin-top: 20vh;
-  width: 30vw;
+  width: 20vw;
   height: auto;
+  margin-right: 8vw;
 }
 .hero{
   min-height: 100vh;
   display: flex ;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
 }
+.links.col-1{
+  margin: 5vw;
+//   display: flex;
+//   min-width: 20vw;
+}
+
+// .hero-mobile{
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   margin: 5vh;
+// }
 
 .hero-text-col{
   align-self: center;
@@ -23,13 +45,32 @@
 
 .links{
   // margin-top: 30vh;
-  align-self: center;
+  align-self: flex-start;
   max-width: 5vw;
   margin: 0 2vw;
     img{
       margin: 1vh 0vw;
       max-width: 5vw;
     }
+}
+
+.hero-image-caption{
+  display: flex;
+  align-items: center;
+}
+
+.subsection-under-profile-image{
+  border: 1px black solid;
+  padding: 2vw;
+
+  // border-style: groove;
+  // border-width: 7px;
+  // border-color: rgba(197, 187, 255, 0.829); 
+
+  border-style: inset;
+  border-width: 3px;
+  border-color: rgba(205, 187, 255, 0.829);
+  inset: 0px 0px 20px 10px rgba(0, 0, 0, 1) ;
 }
 
 @media screen and (max-width: 850px) {
@@ -80,6 +121,10 @@ img.profile-image.rounded{
 
 
 //Experience 
+
+.accordion{
+  margin-right: 10px;
+}
 
 .experience-cards{
   display: flex;
@@ -132,13 +177,18 @@ margin: 0vw 5vw;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
+  // height: 100px;
+  // width: 100px;
   outline: black;
+  
   background-color: rgba(0, 0, 0, 0.3);
-  background-size: 100%, 100%;
+  // background-size: 100%, 100%;
   border-radius: 50%;
   border: 1px solid black;
+}
+
+.sr-only{
+  display: none;
 }
 
 //footer
@@ -169,6 +219,13 @@ margin: 0vw 5vw;
     align-items: flex-start;
   }
   
+  }
+
+  //interests 
+
+  .interests-container{
+    display: flex;
+    justify-content: space-between;
   }
 
 

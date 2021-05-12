@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Currently = () => {
   return (
-    <div>
+    <Container>
       <h1>this could have a section about what i am currently doing- optional extra</h1>
       <ul>
         <li>What i am reading</li>
@@ -11,7 +12,7 @@ const Currently = () => {
         <li>what my goal is for the month outside of coding</li>
         <li> what i am learning (coding and non-coding)</li>
       </ul>
-    </div>
+    </Container>
   )
 }
 

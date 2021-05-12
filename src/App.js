@@ -16,8 +16,8 @@ const App = () => {
       <NavBar/>
       <Hero/>
       <Bio/>
-      <Skills/>
       <Currently/>
+      <Skills/>
       <Experience/>
       <Projects/>
       <Interests/>

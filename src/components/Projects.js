@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tabs, Tab } from 'react-bootstrap'
+import { Tabs, Tab, Container } from 'react-bootstrap'
 import Project4 from './Project4'
 import Project3 from './Project3'
 import Project2 from './Project2'
@@ -8,7 +8,7 @@ import Project1 from './Project1'
 const Projects = () => {
   // const [key, setKey] = useState('Project-4')
   return (
-    <div>
+    <Container>
       <h1>Projects</h1>
       <Tabs defaultActiveKey="Project-4" id="uncontrolled-tab-example">
 
@@ -29,7 +29,7 @@ const Projects = () => {
         </Tab>
 
       </Tabs>
-    </div>
+    </Container>
   )
 }
 
