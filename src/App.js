@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import Bio from './components/Bio'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
-import Currently from './components/Currently'
+// import Currently from './components/Currently'
 import Projects from './components/Projects'
 import Interests from './components/Interessts'
 // import ContactMe from './components/ContactMe'
@@ -16,7 +16,7 @@ const App = () => {
       <NavBar/>
       <Hero/>
       <Bio/>
-      <Currently/>
+      {/* <Currently/> */}
       <Skills/>
       <Experience/>
       <Projects/>
