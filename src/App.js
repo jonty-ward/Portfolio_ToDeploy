@@ -7,7 +7,7 @@ import Experience from './components/Experience'
 import Currently from './components/Currently'
 import Projects from './components/Projects'
 import Interests from './components/Interessts'
-import ContactMe from './components/ContactMe'
+// import ContactMe from './components/ContactMe'
 import Footer from './components/Footer'
 
 const App = () => {
@@ -21,7 +21,7 @@ const App = () => {
       <Experience/>
       <Projects/>
       <Interests/>
-      <ContactMe/>
+      {/* <ContactMe/> */}
       <Footer/>
 
     </div>

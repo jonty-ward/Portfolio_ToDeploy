@@ -9,9 +9,7 @@ background-color: whitesmoke;}
 // Hero Section 
 
 
-.hero-carousel{
-  max-width: 20vw;
-}
+
 
 .profile-image{
   // margin-top: 20vh;
@@ -194,7 +192,7 @@ margin: 0vw 5vw;
 //footer
 
 .footer{
-  background-color: teal;
+  // background-color: teal;
   padding: 2vh;
   display: flex;
   justify-content: space-between;
@@ -227,6 +225,24 @@ margin: 0vw 5vw;
     display: flex;
     justify-content: space-between;
   }
+
+  .interests-paragraph{
+    max-width: 50vw;
+    margin-right: 2vw;
+  }
+
+  .hero-carousel{
+    max-width: 300px;
+    
+  }
+
+  @media screen and (max-width: 850px) {
+    .hero-carousel{
+      max-width: 350px;
+    }
+  }
+
+
 
 
 
