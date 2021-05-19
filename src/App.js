@@ -16,9 +16,10 @@ const App = () => {
       <NavBar/>
       <Hero/>
       <div className="profile-next-to-skills">
+        <h2 id="aboutme"> </h2>
         <Bio/>
         <h2 id="skills"> </h2>
-        <h2 id="aboutme"> </h2>
+      
         <Skills/>
       </div>
 

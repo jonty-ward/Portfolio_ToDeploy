@@ -276,6 +276,13 @@ margin: 0vw 5vw;
     .hero-carousel{
       max-width: 350px;
     }
+    .interests-container{
+      flex-direction: column;
+      max-width: 80vw;
+    }
+    .interests-paragraph {
+      min-width: 90vw;
+    }
   }
 
 
