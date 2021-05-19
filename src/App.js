@@ -15,13 +15,22 @@ const App = () => {
     <div>
       <NavBar/>
       <Hero/>
-      <Bio/>
+      <div className="profile-next-to-skills">
+        <Bio/>
+        <h2 id="skills"> </h2>
+        <h2 id="aboutme"> </h2>
+        <Skills/>
+      </div>
+
       {/* <Currently/> */}
-      <Skills/>
+      <h2 id="experience"> </h2>
       <Experience/>
+      <h2 id="projects"> </h2>
       <Projects/>
+      <h2 id="interests"> </h2>
       <Interests/>
       {/* <ContactMe/> */}
+      <p id="contact"></p>
       <Footer/>
 
     </div>
