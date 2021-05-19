@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Skills = () => {
   return (
     <Container>
-      <h1>Technologies I have used </h1>
+      <h1 className="skills-header">Technologies I have used </h1>
 
       <Container>
         <Row className="skills-row">

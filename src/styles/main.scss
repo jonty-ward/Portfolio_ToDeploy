@@ -5,13 +5,33 @@ body{
 background-color: whitesmoke;
 font-family: 'Roboto', sans-serif;
 }
+.navbar{
+  // background-color: whitesmoke !important;
 
+  justify-content: center;
+  max-width: 100vw;
+}
+
+h1{
+  margin-top: 5vh;
+}
+
+
+// .profile-next-to-skills{
+//   display: flex;
+//   margin-left: 5vw;
+//   margin-right: 5vw;
+
+// }
 
 
 // Hero Section 
 
 
-
+.hero-text{
+  margin-left: 10vw;
+  margin-top: 3vh;
+}
 
 .profile-image{
   // margin-top: 20vh;
@@ -74,26 +94,40 @@ font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 850px) {
+  #root{
+    min-width: 100vw;
+  }
+  body{
+    min-width: 100vw;
+  }
+  .hero-image-caption{
+    flex-direction: column;
+  }
 // .hero{
 //   align-items: flex-start;
 // }
-.hero-mobile{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
+// .hero-mobile{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+// }
 div.links.col-1{
   align-self: flex-start;
   // display: flex;
 }
 img.profile-image.rounded{
-  align-self: flex-end;
+  align-self: center;
+  width: 60vw;
 //   display:none;
 }
 }
 
 
 // SKills Section
+
+.skills-header{
+  margin-top: 5vh;
+}
 
 .icon-image{
   max-width: 5vw;
@@ -241,6 +275,13 @@ margin: 0vw 5vw;
   @media screen and (max-width: 850px) {
     .hero-carousel{
       max-width: 350px;
+    }
+    .interests-container{
+      flex-direction: column;
+      max-width: 80vw;
+    }
+    .interests-paragraph {
+      min-width: 90vw;
     }
   }
 
