@@ -28,7 +28,7 @@ const Hero = () => {
           </Row>
           <h1 className="hero-text"> Hi I&apos;m Jonty.
             <br/>
-            I&apos;m a Junior Software Developer based in Birmigham
+            I&apos;m a Junior Software Developer based in Birmigham.
           </h1>
           <br/>
 

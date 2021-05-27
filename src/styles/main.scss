@@ -238,10 +238,13 @@ margin: 0vw 5vw;
 .footer-links{
   display: flex;
   justify-content: space-between;
+  // justify-content: center;
+  
   a{
     margin: 0px 20px;
     text-decoration: none;
     color: black;
+    
   }
 }
 

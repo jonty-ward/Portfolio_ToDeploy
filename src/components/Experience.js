@@ -101,7 +101,7 @@ const Experience = () => {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <p>Seasonal ecologist  </p>
+                <p>Seasonal Ecologist  </p>
                 <p>May 2018 - November 2018</p>
                 <p>I worked as a seasonal ecology field surveyor, working as part of a team to deliver ecological impact assessments. This involved working both as part of a team, and also working independently. During my time at AECOM I was made an office lead, which meant when in the office I led a small team, working to tight timelines to ensure surveys went out on time, and data was recorded accurately.</p>
               </Card.Body>

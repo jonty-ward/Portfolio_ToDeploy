@@ -5,7 +5,7 @@ import { Carousel } from  'react-bootstrap'
 const Project1 = () => {
   return (
     <div>
-      <h1>Cornhub </h1>
+      <h1>Battleships </h1>
       <a href="https://jonty-ward.github.io/sei-project-1/" target="_blank" rel='noreferrer'> 
         <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577132/portfolio/PinClipart.com_chain-links-clipart_989077_heae0p.png" alt="link to deployed project 4"/>
       </a>
