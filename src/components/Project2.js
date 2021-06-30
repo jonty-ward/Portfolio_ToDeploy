@@ -4,7 +4,7 @@ import { Carousel } from  'react-bootstrap'
 const Project2 = () => {
   return (
     <div>
-      <h1>Lortd of the Rings Quiz </h1>
+      <h1>Lord of the Rings Quiz </h1>
       <a href="https://lotr-quiz.netlify.app/" target="_blank" rel='noreferrer'> 
         <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577132/portfolio/PinClipart.com_chain-links-clipart_989077_heae0p.png" alt="link to deployed project 4"/>
       </a>

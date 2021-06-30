@@ -12,19 +12,19 @@ const Projects = () => {
       <h1>Projects</h1>
       <Tabs defaultActiveKey="Project-4" id="uncontrolled-tab-example">
 
-        <Tab eventKey="Project-4" title="Project 4">
+        <Tab eventKey="Project-4" title="Cornhub">
           <Project4 />
         </Tab>
 
-        <Tab eventKey="Project-3" title="Project 3">
+        <Tab eventKey="Project-3" title="The Natural Wanderer ">
           <Project3 />
         </Tab>
 
-        <Tab eventKey="Project22" title="Project 2">
+        <Tab eventKey="Project22" title="Lord of the Rings Quiz">
           <Project2 />
         </Tab>
 
-        <Tab eventKey="Project-1" title="Project 1">
+        <Tab eventKey="Project-1" title="Battleships">
           <Project1 />
         </Tab>
 
