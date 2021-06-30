@@ -13,7 +13,7 @@ const Hero = () => {
             <Col xs={1} className="links">
          
               <a href="https://www.linkedin.com/in/jonathan-ward95/" target="_blank" rel='noreferrer'>
-                <Image src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620555447/sei_project_3/clipart3041366_ehnfzq.png" />
+                <Image src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1625061454/portfolio/linkedin-round_agl8ts.png" />
               </a>
               <a href="https://github.com/jonty-ward" target="_blank" rel='noreferrer'>
                 <Image src="https://icons-for-free.com/iconfiles/png/512/github+icon-1320168274457504277.png" />
