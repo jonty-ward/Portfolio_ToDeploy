@@ -26,11 +26,16 @@ const Hero = () => {
               <Image className="profile-image" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1617181381/sei_project_3/t2nicgytkd0dkyhv8c0q.jpg" rounded />
             </Col>
           </Row>
-          <h1 className="hero-text"> Hi I&apos;m Jonty.
-            <br/>
+
+          <div className = "hero-text-div">
+            <h1 className="hero-text"> Hi I&apos;m Jonty.
+            </h1>
+            <h2>
             I&apos;m a Junior Software Developer based in Birmigham.
-          </h1>
-          <br/>
+            </h2>
+          </div>
+ 
+         
 
         </div>
 

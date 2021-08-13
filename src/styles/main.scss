@@ -39,21 +39,26 @@ h1{
 
 
 // Hero Section 
-
+// .hero-text-div{
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
 
 .hero-text{
   margin-left: 10vw;
   margin-top: 3vh;
 }
 
+
 .profile-image{
-  // margin-top: 20vh;
+  margin-top: 5vh;
   width: 20vw;
   height: auto;
   margin-right: 8vw;
 }
 .hero{
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex ;
   align-items: flex-start;
   justify-content: center;
