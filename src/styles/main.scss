@@ -2,15 +2,26 @@
 
 
 body{
-background-color: grey;
+background-color: #224870;
 font-family: 'Roboto', sans-serif;
+color: #B5C2B7;
 }
 .navbar{
-  // background-color: whitesmoke !important;
+  background-color: #224870 !important;
+  
 
   justify-content: center;
   max-width: 100vw;
+  a{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    color: #B5C2B7;
+
+  }
 }
+
+
 
 .scroll-button{
   margin-top: 8vh;
