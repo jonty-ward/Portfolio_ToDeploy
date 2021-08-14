@@ -1,6 +1,7 @@
 import React from 'react'
-import { Col, Row, Image, Jumbotron } from 'react-bootstrap'
+import { Col, Row, Image, Jumbotron, Container } from 'react-bootstrap'
 // import HeroCarousel from './HeroCarousel'
+import ScrollButton from './ScrollButton'
 
 const Hero = () => {
   return (
@@ -34,19 +35,10 @@ const Hero = () => {
             I&apos;m a Junior Software Developer based in Birmigham.
             </h2>
           </div>
- 
-         
-
-        </div>
-
-        {/* <HeroCarousel/> */}
-        
-        {/* <Container className="subsection-under-profile-image">
-          <p> I am currently working on a full stack book app</p>
-          <br/>
-          <p></p>
-          
-        </Container> */}
+        </div>        
+        <Container className="scroll-button">
+          <ScrollButton/>
+        </Container> 
    
         
       
