@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Row, Image, Jumbotron, Container } from 'react-bootstrap'
 // import HeroCarousel from './HeroCarousel'
 import ScrollButton from './ScrollButton'
+import { FaBeer } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -9,6 +10,8 @@ const Hero = () => {
       <Jumbotron className="hero" fluid>
         <div className="hero-image-caption">
           <Row className="hero-mobile">
+
+            
 
 
             <Col xs={1} className="links">
@@ -28,8 +31,10 @@ const Hero = () => {
             </Col>
           </Row>
 
+          
           <div className = "hero-text-div">
-            <h1 className="hero-text"> Hi I&apos;m Jonty.
+            <h1 className="hero-text"> Hi I&apos;m Jonty. <FaBeer />
+
             </h1>
             <h2>
             I&apos;m a Junior Software Developer based in Birmigham.
