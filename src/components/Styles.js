@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Header = styled.h1`
 text-align: center;
 left: 50%;
-color: #FF715B;
+color: green;
 `
 	
 export const Content = styled.div`
@@ -19,6 +19,6 @@ height: 20px;
 font-size: 3rem;
 z-index: 1;
 cursor: pointer;
-color: #FF715B;
+color: green;
 `
 

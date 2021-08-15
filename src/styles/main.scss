@@ -2,13 +2,11 @@
 
 
 body{
-background-color: #224870;
+background-color: grey;
 font-family: 'Roboto', sans-serif;
-color: #B5C2B7;
 }
 .navbar{
-  background-color: #224870 !important;
-  
+  // background-color: whitesmoke !important;
 
   justify-content: center;
   max-width: 100vw;
@@ -19,8 +17,6 @@ color: #B5C2B7;
 
   }
 }
-
-
 
 .scroll-button{
   margin-top: 8vh;
