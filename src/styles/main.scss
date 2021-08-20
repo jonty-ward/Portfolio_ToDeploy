@@ -1,5 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
 
+.hero-icons-by-profile-image{
+  font-size: 3em ;
+  color: black;
+}
+.hero-icons-by-profile-image:hover{
+  font-size: 5em ;
+  color: red;
+}
+
+
+.scroll-button{
+  display: flex;
+}
 
 body{
 background-color: #224870;
@@ -270,7 +283,7 @@ margin: 0vw 5vw;
   // background-color: teal;
   padding: 2vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
 }
 
@@ -291,8 +304,8 @@ margin: 0vw 5vw;
 
   .footer{
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
   }
   
   }

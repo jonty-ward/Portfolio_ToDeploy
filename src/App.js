@@ -7,7 +7,7 @@ import Experience from './components/Experience'
 // import Currently from './components/Currently'
 import Projects from './components/Projects'
 import Interests from './components/Interessts'
-// import ContactMe from './components/ContactMe'
+import ContactMe from './components/ContactMe'
 import Footer from './components/Footer'
 
 const App = () => {
@@ -30,8 +30,8 @@ const App = () => {
       <Projects/>
       <h2 id="interests"> </h2>
       <Interests/>
-      {/* <ContactMe/> */}
-      <p id="contact"></p>
+      <ContactMe/>
+      {/* <p id="contact"></p> */}
       <Footer/>
 
     </div>
