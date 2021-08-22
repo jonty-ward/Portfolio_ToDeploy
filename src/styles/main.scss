@@ -6,7 +6,7 @@
 }
 .hero-icons-by-profile-image:hover{
   font-size: 5em ;
-  color: red;
+  color: #FF715B;
 }
 
 
@@ -177,6 +177,10 @@ img.profile-image.rounded{
 
 // SKills Section
 
+.skills-icon{
+  font-size: 50px;
+}
+
 .skills-header{
   margin-top: 5vh;
 }
@@ -277,20 +281,38 @@ margin: 0vw 5vw;
   display: none;
 }
 
+
+//contact me 
+
+.contact-me-container{
+  display: flex;
+  // justify-content: space-evenly;
+}
+
+.contact-me-items{
+  display: flex;
+  justify-content: space-evenly;
+  // margin-left: -10.5vw;
+
+}
+
+
+
+
 //footer
 
 .footer{
   // background-color: teal;
-  padding: 2vh;
+  margin-right: -.05vw;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 
 .footer-links{
   display: flex;
   justify-content: space-between;
-  // justify-content: center;
+  justify-content: center;
   
   a{
     margin: 0px 20px;

@@ -10,9 +10,6 @@ const Footer = () => {
 
       <Container className="footer ">
 
-      
-     
-   
         <Row>
           <Col>
             <p> Made with &hearts; by Jonty Ward </p>
