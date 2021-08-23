@@ -1,15 +1,17 @@
 import React from 'react'
 import { Carousel } from  'react-bootstrap'
+import { FiLink, FiGithub } from 'react-icons/fi'
+
 
 const Project3 = () => {
   return (
     <div>
       <h1>The Natural Wanderer </h1>
       <a href="https://natural-wanderer.netlify.app/" target="_blank" rel='noreferrer'> 
-        <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577132/portfolio/PinClipart.com_chain-links-clipart_989077_heae0p.png" alt="link to deployed project 4"/>
+        <FiLink className="project-links"/>     
       </a>
       <a href="https://github.com/jonty-ward/SEI-Project-Three" target="_blank" rel='noreferrer'> 
-        <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577534/portfolio/5847f98fcef1014c0b5e48c0_1_xgoimh.png" alt="link to deployed project 4 readme"/>
+        <FiGithub className="project-links"/>      
       </a>
       <Carousel>
         <Carousel.Item>

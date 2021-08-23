@@ -10,6 +10,8 @@
 }
 
 
+
+
 .scroll-button{
   display: flex;
   justify-content: center;
@@ -25,7 +27,7 @@
 body{
 background-color: #224870;
 font-family: 'Roboto', sans-serif;
-color: #2D0605;
+color: #B5C2B7;
 }
 .navbar{
   background-color: #224870 !important;
@@ -81,6 +83,12 @@ h1{
 //   align-items: center;
 // }
 
+.hero-mobile{
+  display: flex;
+  align-items: center;
+  // margin-right: 3vw;
+}
+
 .hero-text{
   margin-left: 10vw;
   margin-top: 3vh;
@@ -88,7 +96,8 @@ h1{
 
 
 .profile-image{
-  margin-top: 5vh;
+  align-items: center;
+  // margin-top: 5vh;
   width: 20vw;
   height: auto;
   margin-right: 8vw;
@@ -254,6 +263,26 @@ img.profile-image.rounded{
 
 
 //projects
+.active.nav-link{
+  background-color: #FF715B !important;
+  border-color: #FF715B !important;
+}
+
+.nav {
+  border-color: #FF715B !important;
+}
+
+
+.project-links{
+  font-size: 40px;
+  margin-right: 1vw;
+  color: #F3A712;
+}
+.project-links:hover{
+  color: #FF715B;
+
+}
+
 
 .link-icon-projects{
   width: 3vw;
