@@ -12,12 +12,20 @@
 
 .scroll-button{
   display: flex;
+  justify-content: center;
+  font-size: 50px;
 }
+
+.scroll-button-anchor-link{
+  text-decoration: none;
+  color: #F3A712;
+}
+
 
 body{
 background-color: #224870;
 font-family: 'Roboto', sans-serif;
-color: #B5C2B7;
+color: #2D0605;
 }
 .navbar{
   background-color: #224870 !important;
@@ -179,6 +187,7 @@ img.profile-image.rounded{
 
 .skills-icon{
   font-size: 50px;
+  color: #FF715B;
 }
 
 .skills-header{
@@ -284,6 +293,10 @@ margin: 0vw 5vw;
 
 //contact me 
 
+.contact-me-link{
+  margin-right: 5vw !important;
+  margin-left: 5vw !important;
+}
 .contact-me-container{
   display: flex;
   // justify-content: space-evenly;

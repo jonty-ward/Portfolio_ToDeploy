@@ -18,15 +18,15 @@ const ContactMe = () => {
         <Container className="contact-me-items">
           <Col xs={1} className="links footer-links" >
          
-            <a href="https://www.linkedin.com/in/jonathan-ward95/" target="_blank" rel='noreferrer' >
+            <a href="https://www.linkedin.com/in/jonathan-ward95/" target="_blank" rel='noreferrer' className="contact-me-link" >
               <FiLinkedin className="hero-icons-by-profile-image"/>
             LinkedIn
             </a>
-            <a href="https://github.com/jonty-ward" target="_blank" rel='noreferrer' >
+            <a href="https://github.com/jonty-ward" target="_blank" rel='noreferrer' className="contact-me-link" >
               <FiGithub className="hero-icons-by-profile-image"/>
             GitHub
             </a>
-            <a href="mailto:jward0395@gmail.com" target="_blank" rel='noreferrer' >
+            <a href="mailto:jward0395@gmail.com" target="_blank" rel='noreferrer' className="contact-me-link">
               <HiOutlineMail className="hero-icons-by-profile-image"/>
             Email
             </a>

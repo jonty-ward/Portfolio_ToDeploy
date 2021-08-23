@@ -1,10 +1,14 @@
 import React from 'react'
 import { Col, Row, Image, Jumbotron, Container } from 'react-bootstrap'
 // import HeroCarousel from './HeroCarousel'
-import ScrollButton from './ScrollButton'
 // import { DiJavascript, DiCss3 } from 'react-icons/di'
 import { FiGithub, FiLinkedin } from 'react-icons/fi'
 import { HiOutlineMail } from 'react-icons/hi'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { IoArrowDownCircleSharp } from 'react-icons/io5'
+
+
+
 
 const Hero = () => {
   return (
@@ -40,10 +44,7 @@ const Hero = () => {
           </div>
         </div>        
         <Container className="scroll-button">
-          <ScrollButton/>
-         
-          
-          
+          <AnchorLink href="#aboutme"> <IoArrowDownCircleSharp className="scroll-button-anchor-link"/> </AnchorLink>
         </Container> 
    
         
