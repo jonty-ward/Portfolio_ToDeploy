@@ -7,7 +7,7 @@ import { FiLink, FiGithub } from 'react-icons/fi'
 const Project1 = () => {
   return (
     <div>
-      <h1>Battleships </h1>
+      <h1 className="project-title">Battleships </h1>
       <a href="https://jonty-ward.github.io/sei-project-1/" target="_blank" rel='noreferrer'> 
         < FiLink className="project-links"/>
       </a>

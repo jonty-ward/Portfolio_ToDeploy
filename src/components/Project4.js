@@ -6,9 +6,9 @@ import { FiLink, FiGithub } from 'react-icons/fi'
 const Project4 = () => {
   return (
     <div>
-      <h1>Cornhub </h1>
+      <h1 className="project-title">Cornhub </h1>
       <a href="https://cornhubapp.herokuapp.com/" target="_blank" rel='noreferrer'> 
-        <FiLink className="project-links"/> 
+        <FiLink className="project-links" /> 
       </a>
       <a href="https://github.com/jonty-ward/CornHub" target="_blank" rel='noreferrer'> 
         <FiGithub className="project-links"/>       </a>

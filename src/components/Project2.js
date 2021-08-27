@@ -6,7 +6,7 @@ import { FiLink, FiGithub } from 'react-icons/fi'
 const Project2 = () => {
   return (
     <div>
-      <h1>Lord of the Rings Quiz </h1>
+      <h1 className="project-title">Lord of the Rings Quiz </h1>
       <a href="https://lotr-quiz.netlify.app/" target="_blank" rel='noreferrer'> 
         < FiLink className="project-links"/>
       </a>

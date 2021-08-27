@@ -6,7 +6,7 @@ import { FiLink, FiGithub } from 'react-icons/fi'
 const Project3 = () => {
   return (
     <div>
-      <h1>The Natural Wanderer </h1>
+      <h1 className="project-title">The Natural Wanderer </h1>
       <a href="https://natural-wanderer.netlify.app/" target="_blank" rel='noreferrer'> 
         <FiLink className="project-links"/>     
       </a>

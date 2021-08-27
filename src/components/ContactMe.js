@@ -11,9 +11,9 @@ const ContactMe = () => {
         Contact Me:
         </h1>
 
-        <h5>
-          If you want to get in touch, reach out via the links below!
-        </h5>
+        <p>
+          If you would like to get in touch, reach out via the links below!
+        </p>
         
         <Container className="contact-me-items">
           <Col xs={1} className="links footer-links" >
