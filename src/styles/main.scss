@@ -22,6 +22,10 @@
 .scroll-button-anchor-link{
   margin-bottom: -15vh;
   text-decoration: none;
+  color: #FF715B;
+}
+
+.scroll-button-anchor-link:hover{
   color: #F3A712;
 }
 
@@ -259,9 +263,15 @@ img.profile-image.rounded{
   
 }
 
+// .card{
+//   background-color: #FF715B;
+//   color: black;
+// }
+
 
 .experience-header.card-header{
-  background-color: #FF715B; 
+  background-color: #B5C2B7; 
+  color: black;
   
 }
 
@@ -320,10 +330,10 @@ img.profile-image.rounded{
   font-size: 40px;
   margin-right: 1vw;
   margin-bottom: 2vh;
-  color: #F3A712;
+  color: #FF715B;
 }
 .project-links:hover{
-  color: #FF715B;
+  color: #F3A712;
 
 }
 

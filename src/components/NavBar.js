@@ -9,7 +9,7 @@ const NavBar = () => {
 
     
     <div >
-      <Navbar  bg="light" variant="light" className="navbar ">
+      <Navbar fixed="top" bg="light" variant="light" className="navbar ">
         {/* <Navbar.Brand href="#home">Jonty Ward</Navbar.Brand> */}
         <Nav className="mr-auto">
           <AnchorLink href="#aboutme">About Me</AnchorLink>
