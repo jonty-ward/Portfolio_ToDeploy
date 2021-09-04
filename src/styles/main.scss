@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-
+$base-color: #44BBA4;
 
 
 
@@ -15,7 +15,7 @@
 .scroll-button-anchor-link{
   margin-bottom: -15vh;
   text-decoration: none;
-  color: #0FF4C6;
+  color: $base-color;
 }
 
 .scroll-button-anchor-link:hover{
@@ -27,7 +27,7 @@ body{
 background-color: #224870;
 font-family: 'Roboto', sans-serif;
 // color: #FFFFFA;
-color: #0FF4C6  ;
+color: $base-color  ;
 
 
 }
@@ -73,7 +73,7 @@ h1{
   a{
     text-decoration: none;
     padding: 5px 1vw;
-    color: #0FF4C6;
+    color: $base-color;
     font-size: 20px;
   }
   a:hover{
@@ -108,7 +108,7 @@ h1{
 //Hero section
 .hero-icons-by-profile-image{
   font-size: 3em ;
-  color: #0FF4C6;
+  color: $base-color;
 }
 .hero-icons-by-profile-image:hover{
   font-size: 5em ;
@@ -231,11 +231,12 @@ img.profile-image.rounded{
 
 .skills-icon{
   font-size: 50px;
-  color: #0FF4C6;
+  color: $base-color;
 }
 
 .skills-header{
   margin-top: 5vh;
+  margin-bottom: 2.5vh;
 }
 
 .icon-image{
@@ -277,9 +278,13 @@ img.profile-image.rounded{
 
 
 .experience-header.card-header{
-  background-color: #B5C2B7; 
+  background-color: $base-color; 
   color: black;
   
+}
+
+.experience-header.card-header:hover{
+  background-color: #F3A712;
 }
 
 .accordion{
@@ -294,6 +299,16 @@ img.profile-image.rounded{
     .card-header{
       min-width: 45vw;
     }
+    background-color: #224870 !important;
+}
+
+
+
+.card-body{
+  background-color: #224870;
+}
+.card{
+  border-color: $base-color;
 }
 
 .experience-header{
@@ -317,9 +332,9 @@ img.profile-image.rounded{
 
 //projects
 .active.nav-link{
-  background-color: #0FF4C6 !important;
+  background-color: $base-color !important;
 
-  border-color: #0FF4C6 !important;
+  border-color: $base-color !important;
   
 }
 
@@ -328,7 +343,7 @@ img.profile-image.rounded{
 }
 
 .nav {
-  border-color: #0FF4C6 !important;
+  border-color: $base-color !important;
   border-width: medium;
 }
 
@@ -395,7 +410,7 @@ margin: 0vw 5vw;
 }
 
 .contact-me-link:hover{
-  color: #FF715B !important;
+  color: #F3A712 !important;
 }
 
 
@@ -448,6 +463,7 @@ margin: 0vw 5vw;
   }
 
   //interests 
+  
 
   .interests-container{
     display: flex;
@@ -460,7 +476,7 @@ margin: 0vw 5vw;
   }
 
   .hero-carousel{
-    max-width: 300px;
+    max-width: 30vw;
     
   }
 
