@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-$base-color: #44BBA4;
+$base-color: #69C9B6;
 
 
 
@@ -28,6 +28,13 @@ background-color: #224870;
 font-family: 'Roboto', sans-serif;
 // color: #FFFFFA;
 color: $base-color  ;
+
+  h1{
+    color: #8FD6C8;
+  }
+  h2{
+    color: #69C9B6;
+  }
 
 
 }
