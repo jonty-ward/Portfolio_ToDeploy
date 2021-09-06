@@ -30,6 +30,7 @@ const App = () => {
       <Projects/>
       <h2 id="interests"> </h2>
       <Interests/>
+      <h2 id="contact"> </h2>
       <ContactMe/>
       {/* <p id="contact"></p> */}
       <Footer/>
