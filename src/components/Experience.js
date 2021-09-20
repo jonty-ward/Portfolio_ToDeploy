@@ -1,5 +1,6 @@
 import React from 'react'
 import { Accordion, Card, Container } from 'react-bootstrap'
+import { FiPlusCircle } from 'react-icons/fi'
 
 const Experience = () => {
   return (
@@ -10,13 +11,17 @@ const Experience = () => {
         <Card>
           <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
             FPRC Environment & Design
-            <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            <p className="link-icon-projects"><FiPlusCircle/></p>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
             <Card.Body>
+              <p>Junior Software Developer</p>
+              <p>July 2021 - Present</p>
+              <p>I work as a junior software engineer helping to build a project management and scheduling software using Dart, Flutter and Firebase.</p>
+              <hr/>
               <p>Seasonal Ecologist </p>
-              <p>April 2021 - Present</p>
-              <p>I work as a seasonal ecology field surveyor, working as part of a team to deliver ecological impact assessments. This involves working both as part of a team, and also working independently. </p>
+              <p>April 2021 - July 2021</p>
+              <p>I worked as a seasonal ecology field surveyor, working as part of a team to deliver ecological impact assessments. This involved working both as part of a team, and also working independently. </p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
@@ -27,7 +32,8 @@ const Experience = () => {
         <Card>
           <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
             General Assembly 
-            <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            <p className="link-icon-projects"><FiPlusCircle/></p>
+
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
             <Card.Body>
@@ -45,7 +51,8 @@ const Experience = () => {
         <Card>
           <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
             Engoo
-            <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            <p className="link-icon-projects"><FiPlusCircle/></p>
+
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
             <Card.Body>
@@ -57,12 +64,29 @@ const Experience = () => {
         </Card>
       </Accordion>
 
+      <Accordion defaultActiveKey="0" className="experience-acordion-items">
+        <Card>
+          <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
+            King Edward VI Camp Hill School for Boys
+            <p className="link-icon-projects"><FiPlusCircle/></p>
+
+          </Accordion.Toggle>
+          <Accordion.Collapse eventKey="1">
+            <Card.Body>
+              <p>Secondary School Science Teacher  </p>
+              <p>Sept 2019 - Jan 2020 & March 2020 - July 2020</p>
+              <p>I spent my main palcement of my teacher traiing at King Edward VI Camp Hill School for Boys. This allowed me to develop my confidence and ability to deliver presentations, and hone my organisational skills. It was a challenging expreince, but allowed me to overcome my fear of public speaking!</p>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
 
       <Accordion defaultActiveKey="0" className="experience-acordion-items">
         <Card>
           <Accordion.Toggle className="experience-header"as={Card.Header} eventKey="1">
             Hillcrest School & Sixth Form
-            <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            <p className="link-icon-projects"><FiPlusCircle/></p>
+
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
             <Card.Body>
@@ -76,28 +100,15 @@ const Experience = () => {
       {/* </div> */}
 
       {/* <div className="experience-cards"> */}
-      <Accordion defaultActiveKey="0" className="experience-acordion-items">
-        <Card>
-          <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
-            King Edward VI Camp Hill School for Boys
-            <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
-          </Accordion.Toggle>
-          <Accordion.Collapse eventKey="1">
-            <Card.Body>
-              <p>Secondary School Science Teacher  </p>
-              <p>Sept 2019 - Jan 2020 & March 2020 - July 2020</p>
-              <p>I spent my main palcement of my teacher traiing at King Edward VI Camp Hill School for Boys. This allowed me to develop my confidence and ability to deliver presentations, and hone my organisational skills. It was a challenging expreince, but allowed me to overcome my fear of public speaking!</p>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
-      </Accordion>
+   
 
 
-      <Accordion defaultActiveKey="0" className="experience-acordion-items">
+      {/* <Accordion defaultActiveKey="0" className="experience-acordion-items">
         <Card>
           <Accordion.Toggle className="experience-header" as={Card.Header} eventKey="1">
             AECOM
-            <img className="link-icon-projects" src="https://res.cloudinary.com/diwtcw0yb/image/upload/v1620577785/portfolio/kisspng-computer-icons-symbol-plus-and-minus-signs-5ae5a8ce966e56.3419481815250003986162_hw1mri.png" alt="plus sign"/>
+            <p className="link-icon-projects"><FiPlusCircle/></p>
+
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
             <Card.Body>
@@ -107,7 +118,7 @@ const Experience = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-      </Accordion>
+      </Accordion> */}
       {/* </div> */}
     </Container>
   )

@@ -273,6 +273,10 @@ img.profile-image.rounded{
 
 //Experience 
 
+.link-icon-projects{
+  font-size: 40px;
+}
+
 .experience-acordion-items{
   margin-top: 20px;
   
@@ -338,10 +342,20 @@ img.profile-image.rounded{
 
 
 //projects
-.active.nav-link{
-  background-color: $base-color !important;
 
-  border-color: $base-color !important;
+.nav-item.nav-link {
+  border: 1px black solid;
+  background-color: #8FD6C8;
+}
+
+// #uncontrolled-tab-example-tab-Project-3 {
+//   border: 1px black solid;
+//   background-color: red;
+// }
+.active.nav-link{
+  background-color: #F3A712 !important;
+
+  border-color: black !important;
   
 }
 
