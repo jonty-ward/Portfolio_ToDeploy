@@ -10,7 +10,7 @@ const Interessts = () => {
       <div className="interests-container">
 
         {/* <h1>      This should contain some information about what i like to do for fun! </h1> */}
-        <p className="interests-paragraph">In my free time I love getting outdoors! Being out in the fresh air is hugely beneficial for my mental an physical wellbeing. I love hiking and running, and I have also recently started scuba diving again after two year hiatus! I am willing to try my hand at anything, and have been roped it to rock climbing (pardon the pun!), open water swimming, and paddle boarding. 
+        <p className="interests-paragraph">In my free time I love getting outdoors! Being out in the fresh air is hugely beneficial for my mental an physical wellbeing. I love hiking and running, and I have also recently started scuba diving again after a two year hiatus! I am willing to try my hand at anything, and have been roped it to rock climbing (pardon the pun!), open water swimming, and paddle boarding. 
 
           <br/>
           <br/>

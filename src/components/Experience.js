@@ -75,7 +75,7 @@ const Experience = () => {
             <Card.Body>
               <p>Secondary School Science Teacher  </p>
               <p>Sept 2019 - Jan 2020 & March 2020 - July 2020</p>
-              <p>I spent my main palcement of my teacher traiing at King Edward VI Camp Hill School for Boys. This allowed me to develop my confidence and ability to deliver presentations, and hone my organisational skills. It was a challenging expreince, but allowed me to overcome my fear of public speaking!</p>
+              <p>I spent my main placement of my teacher training at King Edward VI Camp Hill School for Boys. This allowed me to develop my confidence and ability to deliver presentations, and hone my organisational skills. It was a challenging experience, but allowed me to overcome my fear of public speaking!</p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
